@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parallax</title>
+
+
+<style>
+    body{
+        background: lightblue;
+        /*background:url("toad.png") no-repeat top left fixed, url("Koala.jpg") no-repeat top left fixed;
+
+        background-size: 200px, cover ;*/
+
+
+
+    }
+    .parallax{
+        position: relative;
+        min-height: 400px;
+        background: url("Koala.jpg") no-repeat top left fixed;
+        background-size: cover;
+
+    }
+    #texto{
+        position: absolute;
+        top: 50%; /*textp a mitad, margen a 0 , para que el top te haga caso el posicionamiento del texto no puede ser
+        estatico*/
+        margin: 0;
+        text-align: center;
+        width:100%;
+        opacity: .4;
+        color: red;
+        font-size: 5em;
+        letter-spacing: 10px;
+
+    }
+
+    div > div {
+        float: right;
+        width: 80%;
+    }
+
+    div{
+
+        padding-top: 8px;
+
+    }
+
+
+</style>
+
+
+</head>
+<body>
+<div>
+    <div id="item1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eligendi, expedita inventore
+        ipsum obcaecati possimus rerum voluptas. Cum delectus dicta dignissimos dolore doloremque, enim eveniet expedita
+        illo laboriosam laudantium minima minus nesciunt nihil non praesentium quidem quod reiciendis, saepe sint sit
+        temporibus veniam voluptatem! Aliquam amet commodi consequatur deserunt dolore est eum illum impedit ipsam iure
+        libero maiores necessitatibus neque nostrum, obcaecati optio perspiciatis porro possimus provident quia quidem
+        quos rem, saepe sed soluta tempore totam unde! Asperiores, deleniti, sed.
+    </div>
+    <div id="item2">Alias animi aperiam blanditiis dolorem dolores eum fuga incidunt inventore, ipsam, laboriosam
+        laudantium minus nemo neque numquam optio, perspiciatis possimus praesentium quae quis sapiente sed sit soluta
+        suscipit ullam veniam voluptas voluptatem voluptates? Architecto asperiores atque aut corporis dicta doloribus
+        enim error esse eveniet facere hic id, neque nisi nobis nostrum, odit officiis pariatur possimus qui quisquam
+        quos rem sapiente sed temporibus veniam vero voluptates. Aperiam corporis culpa cum dolores molestiae optio
+        pariatur praesentium ratione saepe sequi? Aliquid dolor, officia?
+    </div>
+    <div id="item3">Atque dolore et laudantium omnis pariatur repellat. A accusantium adipisci alias, aliquam architecto
+        blanditiis commodi consequatur corporis dolore doloribus, ducimus ex excepturi facere facilis illo itaque magnam
+        mollitia non placeat porro praesentium provident recusandae rem, reprehenderit repudiandae sunt voluptate
+        voluptatum. Ad architecto esse in laudantium minus officiis possimus? Assumenda consequatur minima nobis
+        voluptatem. A accusamus aperiam autem commodi consequatur cupiditate delectus eaque eius exercitationem fuga
+        fugiat harum illo ipsa labore laboriosam, laudantium libero necessitatibus nemo numquam officia vel velit
+        voluptatem?
+    </div>
+    <div id="item4">Aliquid autem commodi culpa cupiditate debitis dolores esse eum fuga in ipsa ipsam labore,
+        laudantium, natus nobis omnis perferendis praesentium quo sapiente sunt voluptatibus? Aperiam dignissimos enim
+        error est exercitationem impedit molestias nemo nihil, possimus quam quas quasi qui quos repellendus suscipit
+        tempore ut! Aliquid aspernatur assumenda blanditiis deleniti, dolor eius esse eum eveniet laborum minus
+        molestiae nisi odio, odit, officiis porro possimus quasi sequi suscipit unde vero. Accusamus atque ex facilis
+        illum modi placeat quasi qui saepe ullam veniam.
+    </div>
+    <div id="item5">Ab adipisci animi consequatur corporis deserunt distinctio dolore dolorem dolorum ducimus eos et
+        excepturi expedita hic in minus molestias nemo neque nihil nobis nostrum odio praesentium quae qui quod repellat
+        sed similique soluta sunt ullam unde vel, velit vero voluptatem. Adipisci aspernatur id nisi sunt tenetur velit,
+        voluptates. Ad beatae dolores, id impedit iste nam non perspiciatis porro quia quo, reiciendis vero. Alias autem
+        consectetur consequuntur eaque facilis harum hic iste labore nemo nesciunt odit qui reprehenderit, tempora
+        temporibus, voluptate?
+    </div>
+
+
+    <div class="parallax">
+        <p id="texto">"hola mundo"</p>
+    </div>
+
+    <div id="item6">Adipisci asperiores aspernatur debitis, eos illum iusto libero maiores necessitatibus nihil nostrum
+        numquam perferendis porro qui, quia sint, unde voluptas! Accusantium aliquam error eveniet facilis illo incidunt
+        laborum magnam nostrum odit quis quisquam repellendus saepe sequi similique sint, voluptatibus voluptatum!
+        Accusamus at beatae culpa deserunt, doloribus eaque eligendi ipsum molestias praesentium provident ratione
+        repudiandae rerum saepe sunt tempora ut voluptas. Alias atque consequatur distinctio eos perspiciatis, quam
+        ullam voluptas. Alias amet eligendi expedita itaque laudantium nam nihil repudiandae sint? Ipsum?
+    </div>
+    <div id="item7">Animi at cumque ducimus ea enim, excepturi exercitationem explicabo harum, iste, minima praesentium
+        quisquam rerum voluptatem. Ab dicta dolor est ex facere facilis fugit impedit incidunt labore mollitia
+        necessitatibus, nihil, non possimus quis quod recusandae sequi sit totam. Aperiam autem delectus dolore
+        exercitationem fuga id illum laboriosam molestiae mollitia nisi non perferendis, placeat quidem quis quos rem
+        reprehenderit sunt vel. Architecto dicta doloribus eaque numquam omnis perferendis perspiciatis repudiandae
+        sequi tempora voluptas. Aliquid earum est libero nemo odio quos. Nemo?
+    </div>
+    <div id="item8">Amet odit praesentium provident. At commodi debitis dignissimos dolor doloremque eaque error facilis
+        ipsa molestias mollitia nam, nobis nostrum nulla, pariatur quas quisquam similique sit suscipit veritatis
+        voluptatum! Ad aliquam aut laborum nihil numquam quas quidem sapiente unde voluptate. Aliquid consectetur
+        consequatur culpa debitis deleniti dicta dolorem expedita illum molestiae officiis quae, quaerat rem rerum,
+        similique tenetur, veritatis voluptatem. Doloribus eligendi eos in inventore itaque natus sapiente vero
+        voluptas! Beatae consequatur dicta distinctio enim impedit laudantium optio quibusdam similique veniam.
+    </div>
+    <div id="item9">Amet atque culpa cum, eos minus nisi nobis odio perferendis sed veritatis. A architecto asperiores
+        at atque aut autem beatae dolore doloremque ea eaque eligendi esse est exercitationem facilis id, illum in
+        inventore ipsum, iste libero magnam magni maxime modi nobis optio pariatur perspiciatis possimus praesentium
+        quam, quas qui quis quod sit totam vel vitae voluptatum! Aliquid architecto beatae, dolorem error esse et
+        expedita fuga hic id labore officiis pariatur porro quo recusandae rerum soluta tempore voluptatibus? Dolore,
+        pariatur vero?
+    </div>
+    <div id="item10">Alias architecto beatae blanditiis consequatur cupiditate distinctio dolores doloribus eaque
+        eligendi enim et eum exercitationem expedita explicabo fuga fugiat illo illum in ipsa iste laboriosam magni
+        maxime minus natus nesciunt nisi nostrum officia optio perferendis perspiciatis ratione repellendus sed
+        similique ullam ut, voluptatem voluptatum. Accusamus beatae dolor dolores enim facilis hic id, itaque labore
+        magni porro tempora totam. Accusantium dignissimos excepturi nihil officiis voluptatibus? Aliquam beatae cum
+        dolorem laudantium magni minima nesciunt possimus quam qui quidem, repudiandae soluta ut voluptatum?
+    </div>
+</div>
+</body>
+</html>
